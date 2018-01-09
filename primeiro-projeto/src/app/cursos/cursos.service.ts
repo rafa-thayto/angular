@@ -5,4 +5,7 @@ export class CursosService {
 
   constructor() { }
 
+  getCursos() {
+    return ['Java', 'Angular', 'Vue'];
+  }
 }
