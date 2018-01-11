@@ -108,5 +108,9 @@
     <app-curso [nome]="nomeDoCurso"></app-curso>
   </article>
 
+  <app-counter [valor]="valorInicial"
+    (mudouValor)="onMudouValor($event)"
+  ></app-counter>
+
 </section>
 
