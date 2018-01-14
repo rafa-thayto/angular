@@ -1,0 +1,15 @@
+"use strict";
+// import { ConcessionariaDAO } from './ConcessionariaDAO';
+// import { PessoaDAO } from './PessoaDAO';
+Object.defineProperty(exports, "__esModule", { value: true });
+var Concessionaria_1 = require("./Concessionaria");
+var Pessoa_1 = require("./Pessoa");
+var DAO_1 = require("./DAO");
+// let dao: ConcessionariaDAO = new ConcessionariaDAO();
+// let dao2: PessoaDAO = new PessoaDAO();
+var concessionaria = new Concessionaria_1.default('', []);
+var pessoa = new Pessoa_1.default('', '');
+var dao3 = new DAO_1.DAO();
+var dao4 = new DAO_1.DAO();
+dao3.inserir(concessionaria);
+dao4.remover(5);
